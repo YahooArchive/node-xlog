@@ -51,3 +51,10 @@ app.use(xlog());
 
 app.listen(8000);
 ```
+# Build Status
+
+[![Build Status](https://secure.travis-ci.org/yahoo/node-xlog.png?branch=master)](http://travis-ci.org/yahoo/node-xlog)
+
+# Node Badge
+
+[![NPM](https://nodei.co/npm/xlog.png)](https://nodei.co/npm/xlog/)
