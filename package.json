@@ -3,12 +3,6 @@
     "description": "Extends console.log and console.err to add a prefix which contains the node.js PID and the http request URL and an identification counter.",
     "author": "Rohini Harendra <rohini.raghav@gmail.com>",
     "version": "0.0.1",
-    "devDependencies": {
-        "ytestrunner": "*",
-        "yuitest": "*",
-        "jshint": "~0.9.0",
-        "istanbul": "~0.1.27"
-    },
     "main": "./lib/index.js",
     "scripts": {
         "test": "istanbul cover --print=both --yui ytestrunner -- --include ./tests/options.js --include ./tests/builder.js --include ./tests/parser.js --include ./tests/parser_coffee.js --include ./tests/test-xlog.js"
@@ -23,6 +17,12 @@
     "repository": {
         "type":"git",
         "url":"http://github.com/yahoo/node-xlog.git"
+    },
+    "devDependencies": {
+        "ytestrunner": "*",
+        "yuitest": "*",
+        "jshint": "~0.9.0",
+        "istanbul": "~0.1.27"
     },
     "engines": {
         "node": ">0.8.x"
